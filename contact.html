@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Medoune Thioune</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo"><a href="index.html">Medoune Thioune</a></div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link">Accueil</a>
+        <a href="about.html" class="nav-link">À propos</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="projects.html" class="nav-link">Réalisations</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="assets/pdf/cv-medoune-thioune.pdf" class="nav-link cta-button" download><i class="fas fa-download"></i> Mon CV</a>
+      </div>
+      <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-title">Contactez-moi</h1>
+      <p class="page-subtitle">Vous avez un projet ou un besoin ? Je suis disponible et réactif.</p>
+    </div>
+  </section>
+
+  <section class="contact-page">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Mes coordonnées</h2>
+
+          <div class="contact-item">
+            <div class="contact-icon-wrap">📧</div>
+            <div>
+              <h3>Email</h3>
+              <p>thiounemed21@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-wrap">📱</div>
+            <div>
+              <h3>Téléphone</h3>
+              <p>+221 77 218 78 22</p>
+              <p>+221 70 522 66 87</p>
+
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-wrap">📍</div>
+            <div>
+              <h3>Localisation</h3>
+              <p>Ouakam, Dakar </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon-wrap">🔗</div>
+            <div>
+              <h3>Réseaux sociaux</h3>
+              <div class="contact-social">
+                <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://wa.me/+221705226687" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cv-box">
+            <h3>📄 Téléchargez mon CV</h3>
+            <p>Pour en savoir plus sur mon parcours et mes compétences</p>
+            <a href="assets/pdf/cv-medoune-thioune.pdf" class="btn btn-primary" download><i class="fas fa-download"></i> Télécharger</a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <h2>Envoyez-moi un message</h2>
+          <div class="contact-form">
+            <form id="contactForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Nom complet *</label>
+                  <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email *</label>
+                  <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject">Sujet *</label>
+                <input type="text" id="subject" name="subject" placeholder="Objet de votre message" required>
+              </div>
+              <div class="form-group">
+                <label for="service">Service concerné</label>
+                <select id="service" name="service">
+                  <option value="">— Sélectionnez un service —</option>
+                  <option value="Création de site web">Création de site web</option>
+                  <option value="fullstack">Développement Full Stack (Angular / Spring Boot)</option>
+                  <option value="design">Design graphique</option>
+                  <option value="maintenance">Maintenance informatique</option>
+                  <option value="reseau">Câblage & Réseaux</option>
+                  <option value="impression">Bureautique & Impression</option>
+                  <option value="autre">Autre</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet ou besoin..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center"><i class="fas fa-paper-plane"></i> Envoyer le message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Medoune Thioune</h3>
+          <p>Développeur Web Full Stack & Technicien Informatique.<br>Certifié IA — Programme Force N.</p>
+          <div class="social-links" style="margin-top:1.2rem">
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://wa.me/+221705226687" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.facebook.com/Pa Medoune Thioune" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Réalisations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>📧 thiounemed21@gmail.com</p>
+          <p>📱 +221 77 218 78 22</p>
+          <p>📱 +221 70 522 66 87</p>
+          <p>📍 Dakar, Sénégal</p>
+          <a href="assets/pdf/cv-medoune-thioune.pdf" class="btn btn-primary" style="margin-top:1rem;font-size:0.85rem;padding:0.5rem 1rem" download><i class="fas fa-download"></i> Mon CV</a>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>© 2025 Medoune Thioune — Tous droits réservés</p></div>
+    </div>
+  </footer>
+  <script src="js/contact.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
